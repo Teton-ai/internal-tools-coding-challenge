@@ -1,0 +1,31 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.unselectable {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+.selectable {
+    user-select: all;
+    -moz-user-select: all;
+    -khtml-user-select: all;
+    -webkit-user-select: all;
+    -o-user-select: all;
+}
